@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"start": "http-server"
+	},
+	"name": "ukindependenceday",
+	"version": "0.9.0",
+	"description": "UK Independence Day",
+	"main": "index.js",
+	"repository": {
+		"url": "https://github.com/ukindependenceday/ukindependenceday.github.io.git",
+		"type": "git"
+	},
+	"author": "digbyk <digby@digby.net>",
+	"license": "MIT"
+}

@@ -2,42 +2,47 @@
 <html lang="en">
 
 <head>
-	<title>UK Independence Day</title>
-	<meta name="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/flipclock.css" />
-	<link rel="stylesheet" href="/css/styles.css">
-	<link rel="stylesheet" href="/css/timeline.css">
-	<link rel="shortcut icon" href="/images/union-flag.jpg" sizes="196x196" type="image/x-icon">
-	<link rel="shortcut icon" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
-	<link rel="apple-touch-icon" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
-	<link rel="apple-touch-icon-precomposed" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
+    <title>UK Independence Day</title>
+    <meta name="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/flipclock.css" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/timeline.css">
+    <link rel="shortcut icon" href="/images/union-flag.jpg" sizes="196x196" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="/images/union-flag.jpg" sizes="128x128" type="image/x-icon">
 </head>
 
 <body>
-	<div id="main">
-		<div id="clock"></div>
-		<div id="flag"><img src="/images/union-flag.jpg" /> </div>
-		<div id="ads"><ins style="display:block" data-ad-client="ca-pub-0790986216998660" data-ad-slot="6898352486" data-ad-format="auto" class="adsbygoogle"></ins></div>
-	</div>
+    <div id="main">
+        <div id="clock"></div>
+        <!--div id="flag"><img src="/images/union-flag.jpg" /> </div-->
+        <div id="ads"><ins style="display:block" data-ad-client="ca-pub-0790986216998660" data-ad-slot="6898352486" data-ad-format="auto" class="adsbygoogle"></ins></div>
+    </div>
+
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/-fTe709afVs?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=-fTe709afVs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 
 
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" type="text/javascript"></script>
-	<script src="/js/flipclock.min.js"></script>
-	<script type="text/javascript">
-		var currentDate = new Date();
-		var futureDate = new Date(2019, 2, 29, 14, 30, 0);
-		var diff = -currentDate.getTime() / 1000 + futureDate.getTime() / 1000;
-		var clock = $('#clock').FlipClock(diff, {
-			clockFace: 'DailyCounter',
-			countdown: true
-		});
-	</script>
-	<script src="js/timeline.js"></script>
-	<!-- Resource jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" type="text/javascript"></script>
+    <script src="/js/flipclock.min.js"></script>
+    <script type="text/javascript">
+        var currentDate = new Date();
+        var futureDate = new Date(2019, 2, 29, 14, 30, 0);
+        var diff = -currentDate.getTime() / 1000 + futureDate.getTime() / 1000;
+        var clock = $('#clock').FlipClock(diff, {
+            clockFace: 'DailyCounter',
+            countdown: true
+        });
+    </script>
+    <script src="js/timeline.js"></script>
+    <!-- Resource jQuery -->
 </body>
 
 </html>

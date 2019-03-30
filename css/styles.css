@@ -5,12 +5,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
   margin: 0;
-}
-#main {
-  max-width: 800px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+main {
+  margin: 0 auto;
 }
 
 .flip-clock-wrapper {
@@ -20,6 +21,9 @@ body {
   width: inherit;
 }
 
+.flip-clock-divider .flip-clock-label {
+  color: white;
+}
 #flag,
 #flag img {
   order: 1;

@@ -35,10 +35,10 @@
   </head>
 
   <body>
-    <div id="main">
-      <div id="clock"></div>
+    <main id="main">
+      <section id="clock"></section>
       <!--div id="flag"><img src="/images/union-flag.jpg" /> </div-->
-      <div id="ads">
+      <aside id="ads">
         <ins
           style="display:block"
           data-ad-client="ca-pub-0790986216998660"
@@ -46,18 +46,8 @@
           data-ad-format="auto"
           class="adsbygoogle"
         ></ins>
-      </div>
-    </div>
-
-    <div class="video-background">
-      <div class="video-foreground">
-        <iframe
-          src="https://www.youtube.com/embed/-fTe709afVs?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=-fTe709afVs"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
+      </aside>
+    </main>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"
@@ -70,7 +60,7 @@
     <script src="/js/flipclock.min.js"></script>
     <script type="text/javascript">
       var currentDate = new Date();
-      var futureDate = new Date(2019, 4, 12, 23, 0, 0);
+      var futureDate = new Date(2019, 3, 12, 23, 0, 0);
       var diff = -currentDate.getTime() / 1000 + futureDate.getTime() / 1000;
       var clock = $("#clock").FlipClock(diff, {
         clockFace: "DailyCounter",
